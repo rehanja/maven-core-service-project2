@@ -104,7 +104,7 @@ For that add “assembly” plugin to pom file
 
  in main class groupid,main class name should add.
  
- *Run a jar file
+ * Run a jar file
  jar file will create again after 
  <pre>
   mvn package
