@@ -1,9 +1,9 @@
-#Maven core service project
+<h1>Maven core service project</h1>
 
 This is a maven multi module project that contain 2 sub modules as core and service.
 service sub module content a the code in multiple files of sorting algorithms and it can bn execute by core's jar file.
 
-##Table  of content
+<h2>Table  of content<h2>
 
 <a href=#Create-parent-module>1. Create parent module</a>
 
