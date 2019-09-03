@@ -107,12 +107,17 @@ For that add “assembly” plugin to pom file
  * Run a jar file
  jar file will create again after 
  <pre>
-  mvn package
-  </pre>
+ mvn package
+ </pre>
   in the target folder.go there open a terminal and
 <pre>
-   java -jar Example.jar.
+ java -jar Example.jar.
  </pre>
  
  * Run multi module project
  service by core should contain the implementations for algorithms and utilities to be used
+ 
+ * To clean maven project
+ <pre> 
+ mvn clean
+ </pre>
