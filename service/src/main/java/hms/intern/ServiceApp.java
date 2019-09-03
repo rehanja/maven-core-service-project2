@@ -1,36 +1,28 @@
 package hms.intern;
 
-import java.util.Arrays;
-import java.util.concurrent.TimeUnit;
+import hms.intern.CoreApp;
 
 public class ServiceApp {
+    public static void main(String[] args) {
+        getInput(args);
 
+    }
 
+    //method that get input
+    public static void getInput(String[] args) {
+        int[] array = new int[args.length];
 
-	static void processOfSort(int[] array) {
-		SelectionSort selectionSort = new SelectionSort(array);
-		selectionSort.process();
+        System.out.println("Elements of the array you entered");
+        for (int i = 0; i < args.length; i++) {
+            array[i] = Integer.parseInt(args[i]);
+            System.out.println(array[i]);
 
-		BubbleSort bubbleSort = new BubbleSort(array);
-		bubbleSort.process();
+        }
 
-		InsertionSort insertionSort = new InsertionSort(array);
-		insertionSort.process();
+        CoreApp CoreApp = new CoreApp();
 
+        hms.intern.CoreApp.processOfSort(array);
 
-
-	}
-
-}
-//the interface
-
-interface SortInterface {
-
-	void startTime();
-
-	void process();
-
-	void printOutput();
+    }
 
 }
-

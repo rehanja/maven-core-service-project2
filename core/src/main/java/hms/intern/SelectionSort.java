@@ -3,21 +3,15 @@ package hms.intern;
 // class that containt logic of sort processes
 public class SelectionSort implements SortInterface {
     int[] arr;
-    long start;
 
     public SelectionSort(int[] arr) {
         this.arr = arr;
     }
 
-    @Override
-    public void startTime() {
-        start = System.nanoTime();
-    }
 
     @Override
-    public void process() {
-        startTime();
-// one by one move boundary of unsorted sub array
+    public void arrangeNumbers() {
+        long start = System.nanoTime();
         for (int i = 0; i < arr.length - 1; i++) {
 
             // this is the pivot index
@@ -39,15 +33,21 @@ public class SelectionSort implements SortInterface {
             }
 
         }
-        printOutput();
-    }
+        long end = System.nanoTime();
+        long time = end-start;
+    printOutput(arr, time);
+}
 
     @Override
-    public void printOutput() {
-        long end = System.nanoTime();
+    public void printOutput(int[] array, long time) {
 
-        System.out.println("Selection Execution time in nanoseconds  : " + (end - start));
-        System.out.println("");
+
+        for (int f = 0; f < array.length; f++) {
+            System.out.print(array[f] + "-");
+        }
+
+        System.out.println("Selection Execution time in nanoseconds  : " + (time));
+        System.out.println();
     }
 }
 

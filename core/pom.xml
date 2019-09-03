@@ -29,16 +29,7 @@
       <scope>test</scope>
     </dependency>
 
-
-
-      <dependency>
-        <groupId>hms.intern</groupId>
-        <artifactId>service</artifactId>
-        <version>1.0-SNAPSHOT</version>
-        <scope>compile</scope>
-      </dependency>
-
-    </dependencies>
+  </dependencies>
 
 
 

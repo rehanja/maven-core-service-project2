@@ -8,8 +8,6 @@
     <packaging>pom</packaging>
     <name>parent-core-service</name>
 
-
-
     <modules>
         <module>core</module>
         <module>service</module>

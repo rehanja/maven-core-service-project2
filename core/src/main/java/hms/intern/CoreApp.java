@@ -1,30 +1,24 @@
 package hms.intern;
-import hms.intern.ServiceApp;
 
-/**
- * Hello world!
- *
- */
-public class CoreApp
-{
-    public static void main( String[] args )
-    {getInput(args);
+import java.util.Arrays;
+import java.util.concurrent.TimeUnit;
 
+public class CoreApp {
+
+    static void processOfSort(int[] array) {
+        System.out.println("selectionSort");
+        SelectionSort selectionSort = new SelectionSort(array);
+        selectionSort.arrangeNumbers();
+
+        System.out.println("Bubble sort");
+        BubbleSort bubbleSort = new BubbleSort(array);
+        bubbleSort.arrangeNumbers();
+
+        System.out.println("insertion sort ");
+        InsertionSort insertionSort = new InsertionSort(array);
+        insertionSort.arrangeNumbers();
     }
-    //method that get input
-    public static void getInput(String[] args) {
-        int[] array = new int[args.length];
 
-        System.out.println("Elements of the array you entered");
-        for (int i = 0; i < args.length; i++) {
-            array[i] = Integer.parseInt(args[i]);
-            System.out.println(array[i]);
-
-        }
-
-        ServiceApp serviceApp = new ServiceApp();
-
-        serviceApp.processOfSort(array);
-
-    }
 }
+
+

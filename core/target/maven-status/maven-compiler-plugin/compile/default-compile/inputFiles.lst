@@ -1,1 +1,5 @@
 /home/rehan/Projects/apacheMaven/parent-core-service/core/src/main/java/hms/intern/CoreApp.java
+/home/rehan/Projects/apacheMaven/parent-core-service/core/src/main/java/hms/intern/SortInterface.java
+/home/rehan/Projects/apacheMaven/parent-core-service/core/src/main/java/hms/intern/SelectionSort.java
+/home/rehan/Projects/apacheMaven/parent-core-service/core/src/main/java/hms/intern/InsertionSort.java
+/home/rehan/Projects/apacheMaven/parent-core-service/core/src/main/java/hms/intern/BubbleSort.java
