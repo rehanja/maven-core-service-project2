@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c51fb5cb-5c63-4e4e-afd5-1462bfa087a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/TEST-hms.intern.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/TEST-hms.intern.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/surefire-reports/hms.intern.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/surefire-reports/hms.intern.AppTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/src/main/java/hms/intern/ServiceApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/hms/intern/ServiceApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/core/target/" />
@@ -38,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/hms/intern/ServiceApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+            <state relative-caret-position="90">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -221,7 +217,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567571010561" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567586971539" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -306,12 +302,12 @@
       <workItem from="1567501554612" duration="5776000" />
       <workItem from="1567509692295" duration="2714000" />
       <workItem from="1567567633009" duration="1423000" />
-      <workItem from="1567586308215" duration="26000" />
+      <workItem from="1567586308215" duration="664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42575000" />
+    <option name="totallyTimeSpent" value="43213000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -492,8 +488,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/hms/intern/ServiceApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        <state relative-caret-position="90">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
         </state>
       </provider>
     </entry>
