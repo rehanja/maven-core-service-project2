@@ -4,6 +4,7 @@ import hms.intern.CoreApp;
 
 public class ServiceApp {
     public static void main(String[] args) {
+        System.out.println("version 2");
         getInput(args);
 
     }
@@ -12,7 +13,7 @@ public class ServiceApp {
     public static void getInput(String[] args) {
         int[] array = new int[args.length];
 
-        System.out.println("Elements of the array you entered");
+        System.out.println("Elements of the array you entered?????");
         for (int i = 0; i < args.length; i++) {
             array[i] = Integer.parseInt(args[i]);
             System.out.println(array[i]);
