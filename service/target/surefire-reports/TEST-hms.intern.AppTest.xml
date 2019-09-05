@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="hms.intern.AppTest" time="0.027" tests="1" errors="0" skipped="0" failures="0">
+=======
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="hms.intern.AppTest" time="0.034" tests="1" errors="0" skipped="0" failures="0">
+>>>>>>> 4b180a47a99a510e1429bd00070a231ec946d26e
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,8 +21,13 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/home/rehan/Installation/java/jdk1.8.0_121/jre/lib/amd64"/>
+<<<<<<< HEAD
     <property name="sun.java.command" value="/home/rehan/Projects/apacheMaven/parent-core-service/service/target/surefire/surefirebooter3363944245815554864.jar /home/rehan/Projects/apacheMaven/parent-core-service/service/target/surefire 2019-09-05T09-11-50_624-jvmRun1 surefire4608775425502221620tmp surefire_13095674828332750409tmp"/>
     <property name="surefire.test.class.path" value="/home/rehan/Projects/apacheMaven/parent-core-service/service/target/test-classes:/home/rehan/Projects/apacheMaven/parent-core-service/service/target/classes:/home/rehan/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/rehan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/rehan/Projects/apacheMaven/parent-core-service/core/target/classes:"/>
+=======
+    <property name="sun.java.command" value="/home/rehan/Projects/apacheMaven/parent-core-service/service/target/surefire/surefirebooter918992223577662119.jar /home/rehan/Projects/apacheMaven/parent-core-service/service/target/surefire 2019-09-04T13-59-31_747-jvmRun1 surefire870214066949515099tmp surefire_16352720537202268969tmp"/>
+    <property name="surefire.test.class.path" value="/home/rehan/Projects/apacheMaven/parent-core-service/service/target/test-classes:/home/rehan/Projects/apacheMaven/parent-core-service/service/target/classes:/home/rehan/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/rehan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/rehan/Projects/apacheMaven/parent-core-service/core/target/core-1.0-SNAPSHOT.jar:"/>
+>>>>>>> 4b180a47a99a510e1429bd00070a231ec946d26e
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/rehan"/>
     <property name="user.language" value="en"/>
@@ -30,7 +39,11 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+<<<<<<< HEAD
     <property name="surefire.real.class.path" value="/home/rehan/Projects/apacheMaven/parent-core-service/service/target/surefire/surefirebooter3363944245815554864.jar"/>
+=======
+    <property name="surefire.real.class.path" value="/home/rehan/Projects/apacheMaven/parent-core-service/service/target/surefire/surefirebooter918992223577662119.jar"/>
+>>>>>>> 4b180a47a99a510e1429bd00070a231ec946d26e
     <property name="sun.boot.class.path" value="/home/rehan/Installation/java/jdk1.8.0_121/jre/lib/resources.jar:/home/rehan/Installation/java/jdk1.8.0_121/jre/lib/rt.jar:/home/rehan/Installation/java/jdk1.8.0_121/jre/lib/sunrsasign.jar:/home/rehan/Installation/java/jdk1.8.0_121/jre/lib/jsse.jar:/home/rehan/Installation/java/jdk1.8.0_121/jre/lib/jce.jar:/home/rehan/Installation/java/jdk1.8.0_121/jre/lib/charsets.jar:/home/rehan/Installation/java/jdk1.8.0_121/jre/lib/jfr.jar:/home/rehan/Installation/java/jdk1.8.0_121/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
