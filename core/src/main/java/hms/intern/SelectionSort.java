@@ -8,6 +8,10 @@ public class SelectionSort implements SortInterface {
         this.arr = arr;
     }
 
+    public SelectionSort() {
+
+    }
+
 
     @Override
     public void arrangeNumbers() {
