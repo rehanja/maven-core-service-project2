@@ -20,7 +20,7 @@ There are 2 ways to build a parent project.
 <pre>
 mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
 </pre>
-In this way we have to give groupId,archtypeid,artifactid,... in same code in begining.
+In this way we have to give groupId,archtypeid,artifactid,... in same code in beginning.
 
 * By using interactive mode
 
